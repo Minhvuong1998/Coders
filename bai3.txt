@@ -1,0 +1,5 @@
+var myComputer={
+  name:'Asus',
+  age:4,
+  isAwesome:true
+};
