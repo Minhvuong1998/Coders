@@ -1,0 +1,3 @@
+var person='vietnamese';
+var isHeart=true;
+var eyes=1;
