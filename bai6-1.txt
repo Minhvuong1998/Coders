@@ -1,0 +1,18 @@
+var a = 10;
+var b = 18;
+
+var x = a--+b++-++b-++a;
+console.log(x);
+// Nhấn Run để chạy code
+// Thêm cách dấu cách vào dòng 4 để code dễ đọc hơn
+// Giải thích tại sao kết quả lại như vậy. Gợi ý: Viết ra từng dòng để giải thích
+// khi chạy
+// chạy từ trái qua phải
+//a-- k được ưu tiên lên là a=10
+//b-- k dc ưu tiên lên là 18
+// ++b được ưu tiên lên là 19
+// a++ được ưu tiên lên là 18.
+// 10 + 18 - 19 -11
+//28 - 30
+//-2
+// khi chạy song núc này a-- với b++ mới dc thực thi
