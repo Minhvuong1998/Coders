@@ -1,0 +1,11 @@
+/**
+ * Cách sử dụng Array và Object khác nhau như thế nào. Viết câu trả lời ở phía dưới.
+ */
+// array là một danh sách chứa nhiểu phẩn tử
+// ví dụ trong một array có [book1,book2,book3]
+// mỗi một book là một Object chứ thông tin về book
+//trong Object của book ví dụ như :
+// book1={
+//  name:'doremon',
+//  weight:5
+//  };
