@@ -1,0 +1,18 @@
+/**
+ * Điểm khác nhau giữa 2 vòng lặp for...of và for...in, viết code ví dụ
+ */
+// khác về of với in :)
+//trong mảng for in xẽ lấy ra index của mảng
+// còn for of lấy value của mảng
+var mess = ['ahihi', 'ahoho','ahuhu'];
+var x;
+
+for (x of mess) {
+  console.log(x);
+}
+
+for (x in mess) {
+ console.log(x);
+}
+
+//
