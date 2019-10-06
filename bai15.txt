@@ -1,0 +1,21 @@
+/**
+ * Đọc và dịch các method đã học từ MDN: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array
+ * Lấy ví dụ cho các trường hợp input khác nhau của mỗi method
+ * Mục đích của bài tập này: Giúp bạn học cách tự tra cứu, đọc tài liệu.
+ * Đây là một kĩ năng không thể thiếu của 1 developer.
+ */
+// tạo một mảng  arr = ['one', 'two'];
+//thêm phần tử vào cuối mảng arr.push('three');
+//=>arr = ['one', 'two','three'];
+//Xóa phần tử từ cuối Mảng  arr.pop();
+//=>arr = ['one', 'two'];
+//Xóa phần tử từ đầu Mảng arr.shift();
+//=>arr = ['two'];
+//Tìm chỉ mục của một phần tử trong Mảng
+//var pos = new.indexOf('two');
+//=>pos=0
+//Xóa một phần tử bằng chỉ mục của nó
+//var remove= new.splice(pos, 0);
+//=>arr = [];
+//Sao chép một Mảng
+//new.slice();
