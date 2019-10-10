@@ -1,0 +1,13 @@
+function Student(diemToan, diemLy, diemHoa) {
+  this.dienToan = diemToan;
+  this.diemLy = diemLy;
+  this.diemHoa = diemHoa;
+}
+Student.prototype.average = function(){
+  return Math.round((this.diemHoa +this.dienToan + this.diemLy)/3);
+}
+var student1 = new Student(6, 7, 7);
+var student2 = new Student(8, 9, 6);
+
+console.log(student1.average()); // 7
+console.log(student2.average()); // 8
