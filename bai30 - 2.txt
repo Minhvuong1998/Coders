@@ -1,0 +1,6 @@
+const randomInt = require('random-int');
+randomInt(5);
+//=> 3
+
+randomInt(10, 100);
+//=> 54
