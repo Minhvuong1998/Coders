@@ -1,0 +1,21 @@
+math.js
+var math = {
+  add: function(a, b) {
+    return a + b;
+  },
+  addArray: function(array) {
+     return array.reduce( (total, value, index) => {
+            return total += value;
+        });
+  }
+};
+
+module.exports = math;
+index.js
+/**
+ * 1. Thêm method `sum` cho module `math`, nhận vào 1 array các số, trả về tổng các số
+ * 2. Require module math và sử dụng method sum để tính tổng 1 array các số bất kì
+ * 3. Log kết quả
+ */
+const math = require('./math');
+math.addArray([2,3,4]);

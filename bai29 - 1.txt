@@ -1,0 +1,14 @@
+index.js 
+const math = require('./math');
+math.tich(2,3);
+math.js
+var math = {
+  add: function(a, b) {
+    return a + b;
+  },
+  tich: function(a, b) {
+    return a * b;
+  }
+};
+
+module.exports = math;

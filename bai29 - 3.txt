@@ -1,0 +1,12 @@
+math
+class Circle {
+    constructor(x, y, z) {
+        this.x = x;
+        this.y = y;
+        this.z = z;
+    }
+    isOverlapped(Circle) {
+        return Circle.x+Circle.y+Circle.z;
+    }
+}
+  module.exports = Circle;
